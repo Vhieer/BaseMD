@@ -141,7 +141,7 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "" } : {})
 "fileLength": "64455",
 "pageCount": 1,
 "mediaKey": "P32GszzU5piUZ5HKluLD5h/TZzubVJ7lCAd1PIz3Qb0=",
-"fileName": `GuraBot-MD ${ngazap(prefix)}`,
+"fileName": `𝕊𝕖𝕔𝕣𝕖𝕥 𝕄𝔻 ${ngazap(prefix)}`,
 "fileEncSha256": "ybdZlRjhY+aXtytT0G2HHN4iKWCFisG2W69AVPLg5yk="
 }}}
 
@@ -155,7 +155,7 @@ if (tt_res.status == 404) return reply('Gagal url tidak ditemukan')
 var lagu_tt = await getBuffer(`https://api.lolhuman.xyz/api/tiktokmusic?apikey=SadTeams&url=${chats}`)
 reply(`𝗧𝗜𝗞𝗧𝗢𝗞 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗
 
-*Author:* Lexxy Official
+*Author:* 𝓡𝓮𝓮𝔂𝓪
 *Title:* ${tt_res.result.title}
 *Durasi:* ${tt_res.result.duration}
 *Username:* ${tt_res.result.author.username}
@@ -302,7 +302,7 @@ const mark_slebew = '0@s.whatsapp.net'
 const more = String.fromCharCode(8206)
 const strip_ny = more.repeat(4001)
 var footer_nya =`𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 @${setting.ownerNumber.split("@")[0]}`
-let menu_nya = `───「 𝗚𝗨𝗥𝗔𝗕𝗢𝗧-𝗠𝗗 」────
+let menu_nya = `───「 𝕊𝕖𝕔𝕣𝕖𝕥 𝕄𝔻 」────
 
  ${ucapanWaktu} ${cekUser("name", sender)} 👋🏻
 
@@ -468,7 +468,7 @@ reply(`_SCRIPT BOT INI DIJUAL_
 _HARGA 80K JIKA MINAT?_
 
 *Whatsapp Admin*
-Wa.me/6283834558105`)
+Wa.me/62859106985947`)
 break
 case 'owner':{
 if (cekUser("id", sender) == null) return reply(mess.OnlyUser)
